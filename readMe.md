@@ -23,6 +23,6 @@ People wanting to achieve a goal, but don't know how to create a process or plan
 
 ## Features
 
--[ ] Supports the uploading of a text file \n
--[ ] Takes preferences from the user \n
--[ ] Creates a ics file to bu imported by the calendar \n
+[ ] Supports the uploading of a text file
+[ ] Takes preferences from the user
+[ ] Creates a ics file to bu imported by the calendar
