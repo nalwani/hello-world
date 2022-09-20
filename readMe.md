@@ -26,3 +26,10 @@ People wanting to achieve a goal, but don't know how to create a process or plan
 - [ ] Supports the uploading of a text file
 - [ ] Takes preferences from the user
 - [ ] Creates a ics file to bu imported by the calendar
+
+
+## What have I learned so far
+- [x] I know how to create a class
+- [x] I know how to at methods to the class 
+- [x] I know how to instantiate an object of the class
+- [x] I know how to run program with a method called main
