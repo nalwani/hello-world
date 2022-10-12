@@ -1,11 +1,9 @@
-from colorama import Fore
-from processing.Reader import Reader
 from processing.Scraper import Scrapper
+from processing.Scheduler import Scheduler
 
 
 def main():
     end = False
-    reader = Reader()
 
     ## take input
     while not end:
@@ -14,14 +12,11 @@ def main():
         subject = input("What is your subject?")
 
         if name and subject:
-            print(Fore.CYAN)
             # scrapping
-            # toc_items = Scrapper.getWikiTOC(subject)
-
-            # reading
-            #  reader.read(subject)
-
-            print(Fore.WHITE + "Ready to Go!")
+            topics = Scrapper.getWikiTOC(subject)
+            schedule = Scheduler.createEasySchedule(topics)
+            print(schedule)
+            print("Ready to Go!")
             end = True
         else:
             quiting = input("Do you want to quit? (y/n)")

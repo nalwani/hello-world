@@ -21,7 +21,7 @@ class Scrapper:
 
         toc_items = []
         for item in toc_items_raw:
-            print(item.text)
+            # print(item.text)
             toc_items.append(item.text)
 
         return toc_items
